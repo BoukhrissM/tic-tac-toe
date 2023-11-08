@@ -34,7 +34,7 @@ function App() {
         window.location.reload();
       else setDisabled(true);
 
-    if (clicked.length === 9)
+    if (clicked.length === 9 && !hasWinningCombination(lst))
       if (confirm(`Null Part \n\n replay ?`)) window.location.reload();
       else setDisabled(true);
   };
