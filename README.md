@@ -15,7 +15,7 @@ This is a simple Tic Tac Toe game built using [Vite](https://vitejs.dev/) and [R
 
 ## Demo
 
-You can play the game online by visiting the [Tic Tac Toe Game Demo](https://your-demo-url.com).
+You can play the game online by visiting the [Tic Tac Toe Game Demo](https://tic-tac-toe-lovat-nine.vercel.app/).
 
 ## Features
 
