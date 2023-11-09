@@ -24,7 +24,9 @@ const Load = () => {
           }
           size="large"
           className="form-inpt"
-          classNames={{ input: "dark:bg-slate-800 dark:border-gray-500" }}
+          classNames={{
+            input: "dark:bg-slate-800 dark:border-gray-500 dark:text-white",
+          }}
           onChange={(e) => setuser1(e.target.value)}
         />
         <Input
@@ -34,7 +36,9 @@ const Load = () => {
             </span>
           }
           className="form-inpt"
-          classNames={{ input: "dark:bg-slate-800 dark:border-gray-500" }}
+          classNames={{
+            input: "dark:bg-slate-800 dark:border-gray-500 dark:text-white",
+          }}
           size="large"
           onChange={(e) => setuser2(e.target.value)}
         />
