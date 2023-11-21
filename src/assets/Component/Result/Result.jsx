@@ -1,6 +1,7 @@
 import React from "react";
 import { InView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
+import 'animate.css'
 const Result = (props) => {
   const navigate = useNavigate();
   return (
@@ -10,7 +11,7 @@ const Result = (props) => {
           {props.win ? (
             <>
               <span className="text-center  text-black dark:text-white ">
-                <span className="text-6xl animate__animated animate__fadeInUp animate__slower">
+                <span className="text-6xl animate__animated animate__fadeInUp">
                   {props.winner}
                 </span>
                 <br/>
