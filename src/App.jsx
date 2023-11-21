@@ -10,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Load />} />
           <Route path="/game/:usr1/:usr2" element={<Game />} />
-          <Route path="/result/:type/:usr" element={<Result />} />
           <Route path="*" element={<h1 >Not Found</h1>} />
         </Routes>
       </Router>

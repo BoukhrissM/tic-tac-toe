@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.result-modal .ant-modal-content {
+    background-color: white;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    .result-modal .ant-modal-content {
+        background-color: #0f172a;
+    }
+}
+
